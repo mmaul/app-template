@@ -1,0 +1,6 @@
+# Ignore everything in this directory
+*
+# Except this file, felix sources and README.md
+!.gitignore
+!*.flx
+!README.md

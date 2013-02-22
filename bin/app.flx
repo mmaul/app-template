@@ -1,0 +1,3 @@
+include "app/app_helper.flx";
+
+app_println$ "New killer Felix app.";

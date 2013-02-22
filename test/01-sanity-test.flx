@@ -1,0 +1,5 @@
+include "PKGTOOL/pkgtool";
+open PkgTool;
+
+val app = (BUILD_DIR.join("bin")).join("app");
+assert_true(run_cmd(app) == "New killer Felix app."+NL,"Does our app run?");

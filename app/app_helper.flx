@@ -1,0 +1,3 @@
+proc app_println (s:string) {
+  println$ s;
+}
