@@ -1,4 +1,4 @@
-include "PKGTOOL/pkgtool";
+include "std/felix/pkgtool";
 open PkgTool;
 
 val app = (BUILD_DIR.join("bin")).join("app");
